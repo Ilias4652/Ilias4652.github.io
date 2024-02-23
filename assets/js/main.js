@@ -224,14 +224,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 function initializeDownload() {
-    var pdfUrl = 'IliasKapsis_CV.pdf'; // Assuming both files are in the same directory
-
-
     document.getElementById('downloadLink').addEventListener('click', function(event) {
         event.preventDefault();
         var link = document.createElement('a');
-        link.href = pdfUrl;
+        link.href = "assets/js/IliasKapsis_CV.pdf"
         link.download = 'IliasKapsis_CV.pdf';
-        link.click();
+        link.dispatchEvent(new MouseEvent('click'));
     });
 }
