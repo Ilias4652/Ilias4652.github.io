@@ -226,6 +226,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function initializeDownload() {
     var pdfUrl = '../img/IliasKapsis_CV.pdf';
 
+
     document.getElementById('downloadLink').addEventListener('click', function(event) {
         event.preventDefault();
         var link = document.createElement('a');
