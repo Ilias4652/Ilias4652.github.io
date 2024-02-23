@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 function initializeDownload() {
-    var pdfUrl = '../img/IliasKapsis_CV.pdf';
+    var pdfUrl = 'IliasKapsis_CV.pdf'; // Assuming both files are in the same directory
 
     document.getElementById('downloadLink').addEventListener('click', function(event) {
         event.preventDefault();
