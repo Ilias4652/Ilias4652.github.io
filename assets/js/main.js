@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var delay = 50; // milliseconds between each letter
     var isCursorVisible = false; // Initially cursor is hidden
     var animationStarted = false; // Flag to track if animation has started
-    var name = "I am currently studying Computer Science at the University of Crete. I am 21 years old and i am currently on the fourth year of my studies.My main fields of expertise are software engineering, web development/design, and game development. I am profficient using the following languages : C/C++,Java,HTML/CSS/JS. I am also capable of programming in these languages : Python, SQL,C#.I can speak 3 languages. My mother togue is Greek, i am fluent in English and i am currently studying Italian. I have a driver's license for a car and a motorbike.I am interested in Sports, Music,Cars,Programming and Videogames. In the future i would love to build my own idea into a startup and maybe get into music.";
+    var name = "I am currently studying Computer Science at the University of Crete. I am 21 years old and I am currently on the fourth year of my studies.My main fields of expertise are software engineering, web development/design, and game development. I am profficient using the following languages : C/C++,Java,HTML/CSS/JS. Besides that i am capable of programming in these languages : Python, SQL,C#.\n\nI can speak 3 languages. My mother togue is Greek, I am fluent in English and I am currently studying Italian.I am interested in Sports, Music,Cars,Programming and Videogames.";
 
     // Function to check if element is in viewport
     function isInViewport(element) {
