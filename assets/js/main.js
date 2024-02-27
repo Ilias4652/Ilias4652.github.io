@@ -227,8 +227,8 @@ function initializeDownload() {
     document.getElementById('downloadLink').addEventListener('click', function(event) {
         event.preventDefault();
         var link = document.createElement('a');
-        link.href = "assets/js/IliasKapsis_CV.pdf"
-        link.download = 'IliasKapsis_CV.pdf';
+        link.href = "assets/js/IliasKapsisCV_Feb_24.pdf"
+        link.download = 'IliasKapsisCV_Feb_24.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     });
 }
